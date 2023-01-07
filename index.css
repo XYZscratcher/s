@@ -1,1 +1,45 @@
-
+:root {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.1em;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.6;
+}
+button,input[type=sumbit] {
+    color: #111;
+    background-color: #eee;
+    padding: 0.65rem;
+    margin: 0.3rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    line-height: inherit;
+    border: 2px solid var(--gray);
+}
+:is(button,input[type=sumbit]):hover {
+    opacity: .8;
+}
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+}
+textarea,
+img,
+video,
+pre,
+code,
+dialog,
+mark,
+button,
+input[type=sumbit],
+input{
+    border-radius: 10px;
+}
